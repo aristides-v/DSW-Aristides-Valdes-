@@ -1,0 +1,32 @@
+header{border-radius: 30px;
+     background-color: #F4FF61;  
+}
+img{width: 400px;border-radius: 50px;
+}
+
+
+header{
+    display: flex;justify-content:space-around ;
+}
+
+ nav{display:flex ;
+    justify-content: space-around;
+     background-color: #aef852;  
+ }
+ nav ul 
+ section{
+     background-color: #01fca8b4;
+     grid-column:1/4;
+ }
+ aside{
+     background-color: #46fd77;
+     grid-column:4/5;
+ } 
+ footer{
+     background-color: #27AA80;
+ }
+ main{
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
